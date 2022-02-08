@@ -18,7 +18,7 @@
             <!-- つぶやき投稿エリア -->
             <div class="tweet-post">
                 <div class="my-icon">
-                    <img src="<?php echo htmlspecialchars($Views_user['imag_path']);?>" alt="">
+                    <img src="<?php echo htmlspecialchars($view_user['image_path']); ?>" alt="">
                 </div>
                 <div class="input-area">
                     <form action="post.php" method="post" enctype="multipart/form-data">

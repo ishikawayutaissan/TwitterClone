@@ -24,7 +24,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         // ユーザー情報をセッションに保存
         saveUserSession($user);
  
- 
         // ホーム画面へ遷移
         header('Location: ' . HOME_URL . 'Controllers/home.php');
         exit;
@@ -36,5 +35,6 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
  
 // 表示用の変数
 $view_try_login_result = $try_login_result;
+ 
 // 画面表示
 include_once '../Views/sign-in.php';

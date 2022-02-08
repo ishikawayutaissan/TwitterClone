@@ -1,8 +1,7 @@
-?>
 <!DOCTYPE html>
 <html lang="ja">
  
-<head>   
+<head>
     <?php include_once('../Views/common/head.php'); ?>
     <title>ホーム画面 / Twitterクローン</title>
     <meta name="description" content="ホーム画面です">
@@ -19,7 +18,7 @@
             <!-- つぶやき投稿エリア -->
             <div class="tweet-post">
                 <div class="my-icon">
-                    <img src="<?php echo htmlspecialchars($view_user['image_path']) ?>" alt="">
+                    <img src="<?php echo HOME_URL; ?>Views/img_uploaded/user/sample-person.jpg" alt="">
                 </div>
                 <div class="input-area">
                     <form action="post.php" method="post" enctype="multipart/form-data">
@@ -43,7 +42,7 @@
             <?php else : ?>
                 <div class="tweet-list">
                     <?php foreach ($view_tweets as $view_tweet) : ?>
-                       <?php include('../Views/common/tweet.php');?> 
+                        <?php include('../Views/common/tweet.php'); ?>
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
