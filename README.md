@@ -1,8 +1,10 @@
 ﻿# TwitterClone
 
 <div align="center">
-<img src="./LOGIN.png" alt="属性" title="タイトル">
+<img src="./LOGIN.png" alt="ログイン画面">
 </div>
-![画像](./LOGIN.png)
 
-![画像](./twitterclone_Tshirt.png)
+<div align="center">
+<img src="./twitterclone_Tshirt.png" alt="ホーム画面">
+</div>
+
