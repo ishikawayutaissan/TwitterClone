@@ -1,5 +1,9 @@
 ﻿# TwitterClone
- Twitterの疑似サイトです。コメントと画像を投稿できます。
+ Twitterの疑似サイトです。コメントと画像を投稿できます。また投稿に対していいね！をすることができます。
+ 
+## デモ
+[webサイトを見る]
+ 
 
 <div align="center">
 <img src="./LOGIN.png" alt="ログイン画面">
@@ -9,13 +13,11 @@
 <img src="./twitterclone_Tshirt.png" alt="ホーム画面">
 </div>
 
-# 概要
-　Twitterの疑似サイトです。コメントと画像を投稿できます。また投稿に対していいね！をすることができます。
  
-# 使用言語
-HTML、CSS、Javascript、PHP、SQL
+## 使用言語
+HTML / CSS / Javascript / PHP / SQL
 　
-# 機能
+## 機能
 ログイン<br/>
 会員登録<br/>
 投稿<br/>
@@ -26,5 +28,12 @@ HTML、CSS、Javascript、PHP、SQL
 フォロー<br/>
 フォローしているユーザーのみに投稿を絞る<br/>
   
-# 注意事項
+## 注意事項
 投稿の削除機能がありません。ご注意下さい。
+
+## インストール方法について
+
+$ git clone    <br/>
+$ cd  <br/>
+$ sh setup.sh<br/>
+$ ~do anything~<br/>
