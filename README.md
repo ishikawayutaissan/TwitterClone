@@ -33,7 +33,5 @@ HTML / CSS / Javascript / PHP / SQL
 
 ## インストール方法について
 
-$ git clone    <br/>
-$ cd  <br/>
-$ sh setup.sh<br/>
-$ ~do anything~<br/>
+$ git clone https://github.com/ishikawayutaissan/TwitterClone.git  <br/>
+$ cd  
