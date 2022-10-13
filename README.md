@@ -1,5 +1,5 @@
 ﻿# TwitterClone
- Twitterの疑似サイトです。コメントと画像を投稿できます。また投稿に対していいね！をすることができます。
+ Twitterの疑似サイトです。つぶやきと画像を投稿できます。また投稿に対していいね！をすることができます。
  
  ## テスト用アカウント
 メールドレス：test1@gmail.com<br/>
@@ -36,7 +36,3 @@ HTML / CSS / Javascript / PHP / SQL
 ## 注意事項
 投稿の削除機能がありません。ご注意下さい。
 
-## インストール方法について
-
-$ git clone https://github.com/ishikawayutaissan/TwitterClone.git  <br/>
-$ cd  
