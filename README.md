@@ -1,8 +1,13 @@
 ﻿# TwitterClone
  Twitterの疑似サイトです。コメントと画像を投稿できます。また投稿に対していいね！をすることができます。
  
+ ## テスト用アカウント
+メールドレス：test1@gmail.com<br/>
+パスワード：test1test1<br/>
+
+ 
 ## デモ
-[webサイトを見る]
+[webサイトを見る](https://twitterclone.sakura.ne.jp/TwitterClone/Controllers/sign-in.php)
  
 
 <div align="center">
